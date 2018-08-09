@@ -10,3 +10,5 @@ L1 = ['Hello', 'World', 18, 'Apple', None]
 l2 = [n.lower() for n in L1 if isinstance(n,str)]
 print(l2)
 
+print([x for x in list(range(50,101))[:100:2]])
+
